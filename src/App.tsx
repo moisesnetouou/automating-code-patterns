@@ -5,8 +5,6 @@ import './App.css';
 export function App() {
   const [count, setCount] = useState(0);
 
-  console.log('ola');
-
   return (
     <div className="App">
       <div>
