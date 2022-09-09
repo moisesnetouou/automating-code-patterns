@@ -68,8 +68,8 @@
           "allowExpressions": false
         }
       ],
-      "@typescript-eslint/camelcase": "off",
-      "import/no-extraneous-dependencies": "off"
+      "import/no-extraneous-dependencies": "off",
+      "@typescript-eslint/camelcase": "off"
     },
     "settings": {
       "react": {
