@@ -11,7 +11,8 @@
     "commit": "git-cz",
     "lint": "eslint --fix --ext .ts,.tsx .",
     "prettier:fix": "prettier --write .",
-    "test": "vitest"
+    "test": "vitest",
+    "vitest-ui": "vitest --ui"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -30,6 +31,7 @@
     "@typescript-eslint/eslint-plugin": "^5.36.2",
     "@typescript-eslint/parser": "^5.36.2",
     "@vitejs/plugin-react": "^2.1.0",
+    "@vitest/ui": "^0.23.4",
     "commitizen": "^4.2.5",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "^8.23.0",
